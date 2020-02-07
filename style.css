@@ -1,15 +1,30 @@
 body {
-  background: rgb(156, 156, 156);
+  background: rgb(255, 255, 255);
   text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+section {
+  background-color: rgb(214, 214, 214);
+  box-shadow: 5px 5px 5px rgb(156, 156, 156);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
 }
 
-textarea {
-  width: 90%;
-  height: 20%;
+textarea,
+table {
+  background-color: rgb(155, 155, 155);
+  box-shadow: 5px 5px 5px rgb(82, 82, 82);
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  display: inline-block;
+  min-width: 90%;
+  max-width: 90%;
 }
-
 .button {
-  background: rgb(20, 55, 255);
+  background: rgb(83, 109, 255);
   padding: 10px;
   margin: 10px;
   border: 2px solid black;
@@ -17,16 +32,12 @@ textarea {
 }
 .button:hover {
   cursor: pointer;
-  background-color: rgb(93, 83, 221);
-}
-table {
-  display: inline-block;
-  background-color: white;
+  background-color: rgb(66, 52, 255);
 }
 table tr,
 table td {
   border: 1px solid black;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 table #total {
   background-color: rgb(49, 211, 0);
