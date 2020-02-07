@@ -1,0 +1,33 @@
+body {
+  background: rgb(156, 156, 156);
+  text-align: center;
+}
+
+textarea {
+  width: 90%;
+  height: 20%;
+}
+
+.button {
+  background: rgb(20, 55, 255);
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(93, 83, 221);
+}
+table {
+  display: inline-block;
+  background-color: white;
+}
+table tr,
+table td {
+  border: 1px solid black;
+  font-size: 2em;
+}
+table #total {
+  background-color: rgb(49, 211, 0);
+}
